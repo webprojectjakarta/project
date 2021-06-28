@@ -14,6 +14,7 @@ class C_masuk extends CI_Controller
 	public function index()
 	{
 		$biaya = '500';
+		
 		$id = $_GET['idcard'];
 		$waktu = date('Y-m-d H:i:s');
 		$keterangan = 'Masuk';
